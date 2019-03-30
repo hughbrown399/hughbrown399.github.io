@@ -1,0 +1,42 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Slabo 27px' serif;
+	font-size: 40px;
+}
+
+div {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	transition: all 0.1s;
+	color:orange;
+	text-decoration: none;
+}
+
+div.container {
+	max-width: 600px;
+}
+
+/*On screens that are XXX px or less, set font-size to 2.5em*/
+@media (min-width: 600px) {
+	div.container {
+		font-size: 20px;
+	}
+}
